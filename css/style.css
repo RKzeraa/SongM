@@ -1,0 +1,91 @@
+
+
+body {
+    background-color: black;
+}
+
+.cabecalho {
+    width: auto;
+    height: 75px;
+    background-color: black;
+}
+
+.cabecalho img {
+    height: 45px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    color: white;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu a.link {
+    font-family: "Roboto";
+    font-size: 13.5pt;
+    text-decoration: none;
+}
+
+.menu a.link:hover {
+    color: #007fff;
+    cursor: pointer;
+}
+
+.corpo {
+    background-color: #ff8000;
+    width: 100%;
+    right: 570px;
+}
+
+.corpo h1 {
+    color: #007fff;
+    font-size: 150px;
+    font-family: "Roboto";
+    text-align: center;
+    width: 800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+
+.corpo h4 {
+    color: #007fff;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 10px;
+}
+
+.obtenha {
+    background-color: #007fff;
+    color: #ff8000;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px 40px 16px;
+    letter-spacing: 1.4px;
+    border-radius: 500px;
+    border: none;
+    font-family: "Roboto";
+    line-height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.obtenha:hover {
+    background-color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
